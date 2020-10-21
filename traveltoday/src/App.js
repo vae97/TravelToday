@@ -11,7 +11,6 @@ function App() {
       <Div1/>
       <Div2/>
       <Div3/>
-    </div>
   );
 }
 
