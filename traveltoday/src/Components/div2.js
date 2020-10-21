@@ -6,7 +6,7 @@ import {Grid, Typography} from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
     root:{
-        height:'300px',
+        height:'200px',
         textAlign:'center'
     },
     text:{

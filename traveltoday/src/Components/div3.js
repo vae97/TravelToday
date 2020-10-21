@@ -17,7 +17,12 @@ const useStyles =makeStyles((themes)=>({
     card: {
         maxWidth: 345,
         margin:'auto',
-        marginBottom:'20px'
+        marginBottom:'20px',
+        borderRadius:'10px',
+        '&:hover':{
+            maxWidth:350,   
+        }
+       
       },
       media: {
         height: 140,
@@ -31,7 +36,7 @@ export default function Div3(){
     return(
         <Grid container className={classes.root} >
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
@@ -57,7 +62,7 @@ export default function Div3(){
                     </Card>
             </Grid>
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
@@ -83,7 +88,7 @@ export default function Div3(){
                     </Card>
             </Grid>
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
@@ -109,7 +114,7 @@ export default function Div3(){
                     </Card>
             </Grid>
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
@@ -135,7 +140,7 @@ export default function Div3(){
                     </Card>
             </Grid>
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
@@ -162,7 +167,7 @@ export default function Div3(){
                     </Card>
             </Grid>
             <Grid item xs={12} md={4} >
-                    <Card className={classes.card}>
+                    <Card className={classes.card} elevation={24}>
                             <CardActionArea>
                                 <CardMedia
                                 className={classes.media}
