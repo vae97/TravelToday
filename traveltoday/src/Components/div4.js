@@ -1,6 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import {Grid, Typography,Paper,Button} from '@material-ui/core';
+import {Grid, Typography,Paper,Button,Link} from '@material-ui/core';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 import '../Styles/div4.css'
 
@@ -53,7 +53,7 @@ export default function Div4 (){
             </Grid>
             <Grid item xs={12} md={8} className={classes.text}>
                 <Typography className={classes.info}> " Sign In for more informations "</Typography>
-                <Button variant="contained" color="default" className={classes.button} startIcon={<AccountCircleIcon />}>Sign in</Button>
+                <Link href="/signup" underline={'none'}><Button variant="contained" color="default" className={classes.button} startIcon={<AccountCircleIcon />}>Sign in</Button></Link>
             </Grid>
         </Grid>
     )
