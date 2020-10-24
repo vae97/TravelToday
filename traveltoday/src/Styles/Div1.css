@@ -1,14 +1,5 @@
-/*animations*/
-@keyframes example {
-    0%   {background-color:white}
-    25%  {background-color:rgba(209, 202, 202, 0.5)}
-    50%  {background-color:rgba(255, 255, 255, 0.5)}
-    75%  {background-color:rgba(243, 243, 243, 0.5)}
-    100% {background-color:rgb(255, 255, 255)}
-  }
-
 .backgroundimage{
-    background: url('../images/sigiriya.svg') center;
+    background: url('../images/back.svg') center;
     height: 400px;
     background-size:cover;
     background-repeat: no-repeat;
@@ -22,28 +13,16 @@
     background-size:100% 100%;
     background-repeat: no-repeat;
     margin: auto;
-    overflow: hidden;
-    animation-name: example;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    margin-left: 20px;
+    margin-top: 5px;
 
 }
 .explore{
-    background: url('../images/border.svg') center;
     height: 300px;
     background-size:cover;
     background-repeat: no-repeat;
     text-align: center;
     overflow: hidden;
-    animation-name: example;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 
 }
 .div{
@@ -54,8 +33,13 @@
     padding-bottom: 10px;
     border-radius: 10px;
 }
-@media (max-width:500px){
-    .image{
-        background-image: url('../images/yaka2.svg');
+@media(max-width:1000px){
+    .backgroundimage{
+        background: url('../images/back2.svg') center;
+        height: 400px;
+        background-size:cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        overflow: hidden;
     }
 }
