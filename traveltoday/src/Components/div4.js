@@ -52,8 +52,8 @@ export default function Div4 (){
                 <Paper elevation={0} square={true} className="background"></Paper>
             </Grid>
             <Grid item xs={12} md={8} className={classes.text}>
-                <Typography className={classes.info}> " Sign In for more informations "</Typography>
-                <Link href="/signup" underline={'none'}><Button variant="contained" color="default" className={classes.button} startIcon={<AccountCircleIcon />}>Sign in</Button></Link>
+                <Typography className={classes.info}> " Sign Up for more informations "</Typography>
+                <Link href="/signup" underline={'none'}><Button variant="contained" color="default" className={classes.button} startIcon={<AccountCircleIcon />}>Sign Up</Button></Link>
             </Grid>
         </Grid>
     )
