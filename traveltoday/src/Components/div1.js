@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
         padding:'2px'
     },
     font2:{
-        color:'rgb(246, 248, 248)',
+        color:'white',
         fontSize:'14px',
         fontStyle:'italic',
         backgroundColor:'rgba(81, 90, 90 ,5%)',
