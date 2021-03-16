@@ -6,7 +6,7 @@ import FlightIcon from '@material-ui/icons/Flight';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    backgroundColor:'black'
+    backgroundColor:'red'
   },
   menuButton: {
     marginRight: theme.spacing(2),
